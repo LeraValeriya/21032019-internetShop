@@ -7,7 +7,7 @@ include('../modules/header.php');
 include('../config/config.php');
 
 // 
-// Все еще пробую
+// Все еще пробую рлорло
 
 
 // зарпос к БД найти все категории, где parent_id = выбранной категории
