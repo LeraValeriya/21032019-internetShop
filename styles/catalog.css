@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #e6e6e6;
+  font-size: 13px;
+}
+
+.wrapper {
+  margin: 30px auto;
+  max-width: 1200px;
+  background: white;
+  padding: 20px;
+}
+
+h1 {
+  font-weight: 300;
+  text-align: center;
+  margin-top: 40px;
+  text-transform: uppercase;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.filters {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 30px auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.filter {
+  width: 150px;
+  margin: 20px;
+  position: relative;
+  border: none;
+  border-bottom: 1px solid black;
+  font-style: italic;
+}
+
+.catalog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.catalog-item {
+  width: calc(100% / 4 - 40px);
+  margin: 20px;
+  text-align: center;
+}
+
+.catalog-item-pic {
+  height: 200px;
+  border: 2px solid #e6e6e6;
+  margin-bottom: 20px;
+}
+
+.catalog-item-name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.catalog-item-price {
+  font-style: italic;
+}
+
+.pages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 40px;
+}
+
+.pageNum {
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  border: 1px solid #464242;
+  line-height: 25px;
+  background: #464242;
+  margin: 3px;
+  color: white;
+  font-size: 12px;
+}
+
+.pageNum._active {
+  color: #464242;
+  background: white;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 13px;
+  color: black;
+  margin: 15px 0 30px 0;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  background: black;
+  color: white;
+  text-align: center;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 40px;
+  margin-right: 40px;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu a {
+  color: black;
+  text-decoration: none;
+  margin: 10px;
+  font-weight: 600;
+}
+
+.myAccount {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.myAccount div {
+  margin: 10px;
+}
+
+.myAccount img {
+  width: 15px;
+  height: 15px;
+  position: relative;
+  bottom: -2px;
+}
+
+.button {
+  color: orange;
+}
+
+nav {
+  margin: 30px 0;
+  text-transform: uppercase;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 150px 20px 50px;
+}
+
+.footer__title {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 15px 0;
+}
+
+.footer__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  line-height: 20px;
+}
+
+.footer__a {
+  color: black;
+  text-decoration: none;
+}
+
+.footer__a._this {
+  text-decoration: underline;
+}
+
+.footer__icons {
+  position: relative;
+}
+
+.icon img {
+  position: relative;
+  width: 22px;
+  height: 22px;
+  padding: 3px;
+  border: 1px solid black;
+  margin: 10px 10px 0 0;
+}
+
+.footer__text img {
+  width: 10px;
+}
+
+.preloader {
+  margin: 0 auto;
+  width: 50px;
+  height: 50px;
+  background: url(/images/6.svg) center center/contain no-repeat;
+}
+/*# sourceMappingURL=catalog.css.map */
