@@ -1,3 +1,4 @@
+// пробуем-с
 
 class Product {
     constructor(productPic, productName, productPrice, productLink) {
